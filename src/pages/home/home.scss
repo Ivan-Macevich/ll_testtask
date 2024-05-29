@@ -1,0 +1,24 @@
+.home {
+  padding: 0 24px 0 24px;
+}
+
+.course-section {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.course-section--cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+
+.error-message {
+  color: #39414b;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+}

@@ -1,0 +1,34 @@
+.category {
+  min-width: 238px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cfcfe4;
+  border-radius: 18px;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.tag {
+  padding: 10px;
+  border-radius: 12px;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: #5fbf77;
+    color: #ffffff;
+  }
+}
+.tag--active {
+  background-color: #5fbf77;
+  color: #ffffff;
+}
+
+.tag__name {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  
+}
